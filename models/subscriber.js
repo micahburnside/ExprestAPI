@@ -10,6 +10,6 @@ const subscriberSchema = new mongoose.Schema({
     required: true
   },
   subscribeDate: {
-
+    type: Date
   }
 })
