@@ -9,6 +9,9 @@ router.get('/', (req, res) => {
 })
 
 // Getting One
+router.get('/:id', (req, res) => {
+
+})
 
 // Creating One
 
