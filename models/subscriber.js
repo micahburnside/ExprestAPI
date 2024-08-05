@@ -11,6 +11,7 @@ const subscriberSchema = new mongoose.Schema({
   },
   subscribeDate: {
     type: Date,
-    require: true
+    require: true,
+    default: Date.now
   }
 })
