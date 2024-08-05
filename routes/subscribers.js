@@ -20,7 +20,7 @@ router.get('/:id', async (req, res) => {
   })
 
   try {
-
+    const newSubscriber = await subscriber.save()
   } catch (err) {
 
   }
