@@ -4,7 +4,7 @@ const router = express.Router()
 
 
 // Getting All
-router.get('/:id', (req, res) => {
+router.get('/', (req, res) => {
 
 })
 
