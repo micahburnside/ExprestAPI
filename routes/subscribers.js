@@ -14,9 +14,7 @@ router.get('/', async (req, res) => {
 
 // Getting One
 router.get('/:id', getSubscriber, (req, res) => {
-  res.send(res.subscriber.name)
-  // res.send(req.params.id)
-
+res.json(res.subscriber)
 })
 
 // Creating One
