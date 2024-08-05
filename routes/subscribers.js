@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {
     const newSubscriber = await subscriber.save()
     res.status(201).json(newSubscriber)
   } catch (err) {
-
+    res.status(400).json({ message: err.message })
   }
 
 })
