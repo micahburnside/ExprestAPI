@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
 // Getting One
 router.get('/:id', async (req, res) => {
   const subscriber = new Subscriber ({
-
+    name: req.body.name
   })
 })
 
