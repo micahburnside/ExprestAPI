@@ -39,7 +39,7 @@ router.patch('/:id', getSubscriber, (req, res) => {
 })
 
 // Deleting One
-router.delete('/:id', (req, res) => {
+router.delete('/:id', getSubscriber,  (req, res) => {
 
 })
 
