@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   const subscriber = new Subscriber ({
     name: req.body.name,
-    subcsribedToChannel: req.body.subsribedToChannel
+    subscribedToChannel: req.body.subsribedToChannel
   })
 
   try {
