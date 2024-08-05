@@ -6,7 +6,8 @@ const subscriberSchema = new mongoose.Schema({
     required: true
   },
   subscribeToChannel: {
-
+    type: String,
+    required: true
   },
   subscribeDate: {
 
