@@ -13,8 +13,10 @@ router.get('/', async (req, res) => {
 })
 
 // Getting One
-router.get('/:id', async (req, res) => {
-res.send(req.params.id)
+router.get('/:id', getSubscriber, (req, res) => {
+  res.send(res.subscriber.name)
+  // res.send(req.params.id)
+
 })
 
 // Creating One
