@@ -60,3 +60,6 @@ jspm_packages/
 # Jetbrains / IntelliJ / Webstorm etc.
 .idea/
 *.iml
+
+# JetBrains IDE
+.idea/
