@@ -49,10 +49,11 @@ async function getSubscriber(req, res, next) {
       return res.status(404).json({ message: 'Subscriber not found' })
     }
   } catch (err) {
-
+    return res.status(500).json({ message: err.message })
   }
 
   res.subscriber = subscriber
+  next()
 }
 
 module.exports = router
