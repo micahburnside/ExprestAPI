@@ -5,7 +5,7 @@ const router = express.Router()
 
 // Getting All
 router.get('/', (req, res) => {
-
+  res.send('Hello World')
 })
 
 // Getting One
