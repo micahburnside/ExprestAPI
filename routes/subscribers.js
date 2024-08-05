@@ -14,6 +14,9 @@ router.get('/:id', (req, res) => {
 })
 
 // Creating One
+router.post('/', (req, res) => {
+
+})
 
 // Updating One
 
