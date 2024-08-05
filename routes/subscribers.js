@@ -21,7 +21,7 @@ router.get('/:id', async (req, res) => {
 
   try {
 
-  } catch {
+  } catch (err) {
 
   }
 
