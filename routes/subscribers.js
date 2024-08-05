@@ -18,6 +18,13 @@ router.get('/:id', async (req, res) => {
     name: req.body.name,
     subcsribedToChannel: req.body.subsribedToChannel
   })
+
+  try {
+
+  } catch {
+
+  }
+
 })
 
 // Creating One
