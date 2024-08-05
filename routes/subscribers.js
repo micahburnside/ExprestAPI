@@ -24,5 +24,8 @@ router.patch('/:id', (req, res) => {
 })
 
 // Deleting One
+router.delete('/:id', (req, res) => {
+
+})
 
 module.exports = router
