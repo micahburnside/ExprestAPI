@@ -41,4 +41,12 @@ router.delete('/:id', (req, res) => {
 
 })
 
+function getSubscriber(req, res, next) {
+  try {
+
+  } catch (err) {
+
+  }
+}
+
 module.exports = router
