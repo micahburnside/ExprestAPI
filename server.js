@@ -12,4 +12,6 @@ db.once('open', () => console.log('Connected to Database'))
 //allows server to accept JSON
 app.use(express.json())
 
+const subscribersRouter = require('./routes/subscribers')
+
 app.listen(3000, () => console.log('Server Started'))
