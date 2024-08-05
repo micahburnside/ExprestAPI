@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
 })
 
 // Updating One
-router.patch('/', (req, res) => {
+router.patch('/:id', (req, res) => {
 
 })
 
