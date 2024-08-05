@@ -34,7 +34,7 @@ const subscriber = new Subscriber({
 })
 
 // Updating One
-router.patch('/:id', (req, res) => {
+router.patch('/:id', getSubscriber, (req, res) => {
 
 })
 
