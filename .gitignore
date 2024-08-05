@@ -56,3 +56,7 @@ jspm_packages/
 # react / gatsby build output
 /public
 /.cache
+
+# Jetbrains / IntelliJ / Webstorm etc.
+.idea/
+*.iml
