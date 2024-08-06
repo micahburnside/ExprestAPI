@@ -5,7 +5,7 @@ const subscriberSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  subscribeToChannel: {
+  subscribedToChannel: {
     type: String,
     required: true
   },
@@ -16,4 +16,4 @@ const subscriberSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Subscriber', subsriberSchema)
+module.exports = mongoose.model('Subscriber', subscriberSchema)
