@@ -32,7 +32,7 @@ const subscriber = new Subscriber({
 })
 
 // Updating One
-router.patch('/:id', getSubscriber, (req, res) => {
+router.patch('/:id', getSubscriber, async (req, res) => {
   if (req.body.name != null) {
     res.subscriber.name = req.body.name
   }
@@ -43,7 +43,7 @@ router.patch('/:id', getSubscriber, (req, res) => {
     const updatedSubscriber = await res.subscriber.save()
     res.json(updatedSubscriber)
   } catch (err) {
-
+    res.status(400).json({ message: err.message })
   }
 
 })
