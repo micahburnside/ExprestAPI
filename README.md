@@ -7,7 +7,7 @@ Web Dev Simplified Rest API Tutorial Project using Express, Node, and MongoDB
 
 Create Directory
 ```shell
-touch /RestAPI
+mkdir /RestAPI
 ```
 
 Switch to /RestAPI directory
