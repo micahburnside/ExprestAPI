@@ -33,6 +33,13 @@ const subscriber = new Subscriber({
 
 // Updating One
 router.patch('/:id', getSubscriber, (req, res) => {
+  if (req.body.name != null) {
+    res.subscriber.name = req.body.name
+  }
+  if (req.body.subscribedToChannel != null) {
+    res.subscriber.subscribedToChannel = req.body.subscribedToChannel
+  }
+
 
 })
 
