@@ -14,3 +14,7 @@ Content-Type: application/json
 "subscribedToChannel": "Web Dev Simplified"
 }
 
+###
+
+DELETE  http://localhost:3000/subscribers/66b161af1e2510489d7abef6
+
