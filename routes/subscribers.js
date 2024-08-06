@@ -39,7 +39,12 @@ router.patch('/:id', getSubscriber, (req, res) => {
   if (req.body.subscribedToChannel != null) {
     res.subscriber.subscribedToChannel = req.body.subscribedToChannel
   }
+  try {
+    const updatedSubscriber = await res.subscriber.save()
+    res.json(updatedSubscriber)
+  } catch (err) {
 
+  }
 
 })
 
